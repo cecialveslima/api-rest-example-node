@@ -7,7 +7,9 @@ const app = express();
 const port = process.env.PORT || 3000; //para enviarmos ao Heroku
 
 let users = [{ id: 1, name: 'Ceci', age: 40 },
-{ id: 2, name: 'Welinton', age: 40 }];
+{ id: 2, name: 'Welinton', age: 40 },
+{ id: 3, name: 'Susane', age: 27 }
+];
 
 
 app.use(express.json()); //request em formato json
